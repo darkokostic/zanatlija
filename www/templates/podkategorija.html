@@ -1,0 +1,13 @@
+<ion-view>
+   <ion-content  class="scroll-content ionic-scroll">
+       <ion-list class="itemList" can-swipe="listCanSwipe">
+           <ion-item ng-repeat="podkategorija in podkategorije track by $index | orderBy:'numOfAds':'reverse'" class="item-thumbnail-left item-text-wrap" href="#/lista-zanatlija/{{podkategorija.objectId}}" style="background-color: #edecec;">
+               <img ng-src="{{podkategorija.image.url}}" />
+               <h1>{{podkategorija.name}}</h1>
+               <button id="leftBtn" class="button button-clear button-stable icon ion-chevron-right"></button>
+               <p>{{podkategorija.numOfAds}}</p>
+               <ion-option-button class="{{lecture.alreadyAdded}} icon ion-star" ng-click="refreshVal=true; addRemoveFavorite({{lecture.Id}});"></ion-option-button>
+           </ion-item>
+       </ion-list>
+   </ion-content>
+</ion-view>

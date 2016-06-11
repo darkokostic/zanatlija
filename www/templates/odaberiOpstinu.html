@@ -1,0 +1,9 @@
+<ion-view>
+    <ion-content class="scroll-content ionic-scroll">
+        <ion-list class="itemList" can-swipe="listCanSwipe">
+            <ion-checkbox ng-repeat="opstina in opstine" class="item-thumbnail-left item-text-wrap" ng-checked="opstina.checked" ng-click="saveOpstinaID('{{opstina.objectId}}')">
+                <h1>{{opstina.opstinaName}}</h1>
+            </ion-checkbox>
+        </ion-list>
+    </ion-content>
+</ion-view>

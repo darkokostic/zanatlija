@@ -1,0 +1,37 @@
+<ion-nav-title>
+   <span ng-hide="search">Title</span>
+   <span ng-if="search">
+      <label class="item item-input">
+         <input type="text" placeholder="Search..." ng-model="searchText">
+      </label>
+   </span>
+</ion-nav-title>
+<ion-view>
+  <ion-nav-buttons side="right">
+      <button class="button button-clear icon ion-ios-search-strong" ng-class="onFavorites ? &apos;button-positive&apos; : &apos;button-dark&apos;" ng-click="showFilterBar()"></button>
+  </ion-nav-buttons>
+    <ion-content class="scroll-content ionic-scroll">
+        <ion-list class="mojiOglasi">
+            <ion-item style="height: 160px;" ng-repeat="oglas in oglasi" class="item-thumbnail-left item-text-wrap" href="#/oglas-single-view/">
+              <div class="mojiOglasiInfo">
+                <div class="mojiOglasiLeft">
+                  <img ng-src="{{oglas.image.url}}">
+                  <p class="likes">{{oglas.likes}} likes</p>
+                </div>
+                <div class="mojiOglasiRight">
+                  <p>Ime(radnje): {{oglas.name}}</p>
+                  <hr>
+                  <p>Lokacija(adresa): {{oglas.address}}</p>
+                  <hr>
+                  <p>Radno vreme: {{oglas.workingTime}}</p>
+                </div>
+              </div>
+							<div class="mojiOglasiButton">
+								  <button class="button button-stable">Izmeni</button>
+                  <br/>
+                  <button class="button button-stable" ng-click="deleteAd('{{oglas.objectId}}', $event)">Obrisi</button>
+              </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

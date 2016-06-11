@@ -1,0 +1,302 @@
+/* Empty. Add your own CSS if you like */
+
+/* Side Menu */
+.sideMenu {
+	background-color: #fff;
+	text-align: center;
+	color: #838383;
+}
+.sideMenu a {
+	font-family: LatoBold;
+	font-size: 20px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.sideMenu img {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 200px;
+}
+.sideMenu p {
+	text-align: left;
+	font-family: LatoLight;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+/* Single View */
+.singleViewTop {
+	height: 30%;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.singleViewTop img {
+	float: left;
+	width: 130px;
+}
+.lectureInfo {
+	min-height: 130px;
+	margin-left: 140px;
+	background-color: #f5f5f5;
+	padding-top: 13px; 
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+.lectureInfo p {
+	color: #999999;
+	font-weight: bold;
+	line-height: 12px;
+}
+.lang {
+	display: inline;
+}
+.track {
+	background-color: #f7f14d;
+	margin-left: 3px;
+	display: inline;
+}
+
+.lectureTitleAndDesc {
+	color: #9e9e9e;
+	padding-left: 50px;
+	padding-right: 30px;
+	margin-top: 70px;
+}
+.favoriteButton {
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+/* single view lecturer*/
+.singleViewLecturer {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.pic1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	position: absolute;
+	top: -2%;
+	left: -2%;
+	width: 106%;
+  	height: 52%;
+	-webkit-filter: blur(11px); -moz-filter: blur(11px); -o-filter: blur(11px); -ms-filter: blur(11px); filter: blur(11px);
+	-webkit-filter: scale(1.5); -moz-filter: scale(1.5); -o-filter: scale(1.5); -ms-filter: scale(1.5); filter: scale(1.5);
+}
+.pic11 {
+	position: absolute;
+    background-color: black;
+    opacity: 0.55;
+	top: 0;
+	left: 0;
+	width: 100%;
+  	height: 50%;
+    box-shadow: 0px 0px 20px 0px black;
+    -webkit-box-shadow:0px 0px 20px 0px black;
+}
+.singleViewLecturer h4 {
+	margin-top: 190px;
+	position: relative;
+	color: #fff;
+	font-weight: bold;
+	line-height: 12px;
+}
+ .singleViewLecturer p {
+ 	position: relative;
+	color: #C9C9C9;
+	font-weight: bold;
+	line-height: 12px;
+}
+.pic2 {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: -80px;
+	margin-top: 50px;
+}
+.singleViewLecturer button {
+	float: left;
+	margin-left: -18px;
+	margin-top: -5px;
+}
+
+/* favorites title */
+.favoritesTitle {
+	color: #888888;
+	font-family: LatoBold;
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+/* itemList */
+.itemList h1 {
+	color: #888888;
+	font-family: LatoBold;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 60px;
+	margin-right: 5px;
+}
+
+.itemList p {
+	color: #888888;
+	font-family: LatoBold;
+	float: left;
+	margin-top: 10px;
+}
+
+.item-thumbnail-right > img:first-child, .item-thumbnail-right .item-image, .item-thumbnail-right .item-content > img:first-child, .item-thumbnail-right .item-content .item-image {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+/* lecturers */
+.lecturers p {
+	color: #888888;
+	font-family: LatoRegular;
+	font-size: 12px;
+	margin: 0 auto;
+	margin-top: 3px;
+	margin-left: 40px;
+}
+.lecturers {
+	margin-bottom: 40px;
+}
+.lecturers p {
+    color: #888888 ;
+    font-family: LatoRegular;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-left: 5px;
+}
+.lecturers h2 {
+    font-family: LatoBold;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.lecturersTitle h3 {
+	color: #888888;
+	font-family: LatoBold;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 20px;
+}
+.lecturersTitle p {
+	color: #888888;
+	font-family: LatoRegular;
+	font-size: 12px;
+	text-align: center;
+}
+
+.item-thumbnail-left > img:first-child, .item-thumbnail-left .item-image, .item-thumbnail-left .item-content > img:first-child, .item-thumbnail-left .item-content .item-image {
+	max-width: 80px;
+	max-height: 80px;
+}
+
+/* social corner */
+.socialCornerButton {
+	text-align: right;
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+.tweet {
+	width: 60%;
+	height: 120px;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+	color: #a7a7a7;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+/* ABOUT */
+.scroll {
+	height: 100%;
+}
+#map {
+	height: 60%;
+	width: 100%;
+}
+
+.about-us-info {
+	text-align: center;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.about-us-info img {
+	width: 250px;
+}
+.about-us h3 {
+	font-family: LatoRegular;
+	color: #808080;
+	text-align: center;
+	font-size: 18px;
+}
+.about-us p {
+	text-align: left;
+	font-family: LatoRegular;
+	font-size: 12px;
+	color: #a7a7a7;
+}
+
+.about-us-date {
+	background-color: #f5f5f5;
+	width: 200px;
+	height: 50px;
+	padding: 5px 4px 5px 10px;
+	margin: 0 auto;
+}
+.about-us-date h4 {
+	text-align: left;
+	color: #9f9f9f;
+	font-size: 14px;
+	line-height: 7px;
+}
+.about-us-info a {
+	text-decoration: none;
+}
+.tabActive {
+    background-color: #3fa9f5 ;
+}
+.tabDeactive {
+    background-color: #bcbcbc ;
+}
+.tab-item {
+    font-family: LatoBold;
+    font-size: 16px;
+    max-width: none;
+}
+
+/* FONTS */
+@font-face {
+    font-family: LatoBold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: LatoRegular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoLight;
+    src: url(../fonts/Lato-Light.ttf);
+}

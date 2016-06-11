@@ -1,0 +1,63 @@
+<ion-view>
+    <ion-content class="scroll-content ionic-scroll" padding="false" class="has-header">
+
+		<div ng-style="{'background-image': 'url('+zanatlija.image.url+')'}" style="background-position: center;
+    background-size: cover; width:100%; height:180px; border-bottom: 4px solid #3f3f3f;"></div>
+
+        <div style="width:65px ; height: 60px ; background:white; border: 4px solid #3f3f3f ;margin-top: -33px ; margin-left: auto; margin-right: auto ; position: relative; border-radius: 50%">
+            <img src="{{imagePodkategorija}}" width="100%" height="100%" style="text-align: center;">
+        </div>
+
+        <h1 class="h1Oglas">{{zanatlija.name}}</h1>
+        <br/>
+
+        <table style="undefined;table-layout: fixed; width: 100%" align="center">
+            <colgroup>
+                <col style="width: 50px">
+                    <col style="width: 50px">
+                        <col style="width: 50px">
+            </colgroup>
+            <tr class="h3Oglas">
+                <th>Kvalitet</th>
+                <th>Cena</th>
+                <th>Usluga</th>
+            </tr>
+            <tr class="h3Oglas">
+                <th>{{kvalitet}}</th>
+                <th>{{cena}}</th>
+                <th>{{usluga}}</th>
+            </tr>
+        </table>
+
+        <div class="oglasTop">
+            <p align="center">Možete oceniti <a style="color: blue;" href="#/ocena/{{zanatlija.objectId}}">ovde</a>
+            </p>
+        </div>
+
+
+        <div class="oglasTop">
+
+			<div style="float:right;"><a href="#/mapa-single-view/{{zanatlija.address}}">
+                <button class="button button-clear button-dark icon ion-ios-location"  style="float: right; margin-right: 25px;"></button>
+            </a><br/>
+
+             <a href="tel:{{zanatlija.tel}}" >
+				 <button class="button button-clear button-dark icon ion-ios-telephone" style="float:right; margin-right: 25px"></button></a></div>
+
+
+            <p>Radno vreme: {{zanatlija.workingTime}}</p>
+            <p>Lokacija: {{zanatlija.address}}</p>
+            <p>Kontakt telefon: {{zanatlija.tel}}</p>
+        </div>
+
+        <div class="oglasTop">
+            <h2 class="h2Oglas">O nama:</h3>
+            <p>{{zanatlija.opis}}</p>
+        </div>
+
+        <div align="center" style="padding-bottom: 30px;">
+            <div class="fbShareBtn" ng-click="facebookShare()"></div>
+			</div>
+
+    </ion-content>
+</ion-view>

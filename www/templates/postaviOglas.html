@@ -1,0 +1,45 @@
+<ion-view>
+	<ion-content class="scroll-content ionic-scroll" style="background-color: #edecec; padding-left: 20%; padding-right: 30px;">
+	<form name="postaviOglas">
+		<div class="postaviOglas">
+			<div class="postaviOglasTop">
+				<p>Kategorija:</p>
+				<select class="ion-input-select" ng-model="$parent.selectedCategory" ng-options="kategorija.name for kategorija in kategorije" ng-change="getSubCategory()">
+				</select>
+			</div>
+			<div class="postaviOglasTop" ng-show="showMe">
+				<p>Podkategorija:</p>
+				<select class="ion-input-select" ng-model="$parent.selectedSubCategory" ng-options="podkategorija.name for podkategorija in podkategorije">
+				</select>
+			</div>
+			<div class="postaviOglasCenter">
+				<p style="margin-right: 86px;">Ime(radnje):</p>
+				<input type="text" ng-model="$parent.name">
+			</div>
+			<div class="postaviOglasCenter">
+				<p style="margin-right: 64px;">Lokacija(adresa):</p>
+				<input type="text" ng-model="$parent.address">
+			</div>
+			<div class="postaviOglasCenter">
+				<p style="margin-right: 19px;">Radno vreme:</p>
+				<input type="text" ng-model="$parent.workingTime">
+			</div>
+			<div class="postaviOglasCenter">
+				<p style="margin-right: 60px;">Telefon:</p>
+				<input type="text" ng-model="$parent.phone">
+			</div>
+			<div class="postaviOglasTextarea">
+				<p style="margin-right: 80px;">Opis:</p>
+				<textarea ng-model="$parent.description"></textarea>
+			</div>
+			<div class="postaviOglasSlika">
+				<p style="margin-right: 120px;">Slika:</p>
+				<img src="img/kategorija.png"><input type="file" id="post-file" ng-model="$parent.image"></img>
+			</div>
+			<div class="postaviOglasButton">
+				<button class="button button-stable" ng-click="saveAd()">Sacuvaj</button>
+			</div>
+		</div>
+	</form>
+	</ion-content>
+</ion-view>

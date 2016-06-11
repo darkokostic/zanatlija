@@ -1,0 +1,667 @@
+/* Side Menu */
+
+.sideMenu {
+	background-color: #ffffff;
+	text-align: center;
+	color: #838383;
+}
+
+.sideMenu a {
+	font-family: LatoBold;
+	font-size: 20px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.sideMenu img {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 200px;
+}
+
+.sideMenu p {
+	text-align: left;
+	font-family: LatoLight;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #3f3f3f;
+}
+/* HOME */
+
+.burgerMenu {
+	width: 13%;
+	height: 4%;
+	position: absolute;
+	top: 5%;
+	left: 2%;
+}
+
+.servisi {
+	width: 30%;
+	height: 13%;
+	position: absolute;
+	top: 19%;
+	left: 53%;
+}
+
+.negaTela {
+	width: 30%;
+	height: 13%;
+	position: absolute;
+	top: 29%;
+	left: 14%;
+}
+
+.rucniRad {
+	width: 30%;
+	height: 13%;
+	position: absolute;
+	top: 41%;
+	left: 51%;
+}
+
+.usluge {
+	width: 30%;
+	height: 13%;
+	position: absolute;
+	top: 53%;
+	left: 11%;
+}
+
+.domacinstvo {
+	width: 30%;
+	height: 13%;
+	position: absolute;
+	top: 62%;
+	left: 56%;
+}
+
+.nonstop {
+	width: 30%;
+	height: 13%;
+	position: absolute;
+	top: 81%;
+	left: 30%;
+}
+
+.homeTop {
+	padding: 0;
+	margin: 0 auto;
+	width: 30vw;
+	height: 30vw;
+	margin-top: 3vw;
+}
+
+.homeBottom {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.homeImg {
+	width: 100%;
+	height: 100%;
+}
+
+.homeKategorija {
+	font-size: 5vw;
+}
+/* oglas single view*/
+
+.h1Oglas {
+	font-family: LatoRegular;
+	color: #3f3f3f;
+	text-align: center;
+	font-size: 22px;
+}
+
+.h2Oglas {
+	font-family: LatoRegular;
+	color: #3f3f3f;
+	text-align: left;
+	font-size: 17px;
+}
+
+.h3Oglas {
+	font-family: LatoRegular;
+	color: #3f3f3f;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.oglasTop {
+	margin-top: 30px;
+	padding-left: 5%;
+	line-height: 200%
+}
+
+.oglasTop .oglasLeft {
+	margin-right: 30px;
+	float: left;
+}
+
+.oglasTop .oglasRight {
+	float: left;
+}
+
+.oglasLeft img {
+	width: 130px;
+	height: 130px;
+}
+
+.oglasTop p {
+	color: #3f3f3f;
+	font-family: LatoRegular;
+	font-size: 16px;
+	margin: 0 auto;
+	padding-right: 25px;
+}
+
+.oglasTop hr {
+	border-color: #e2e2e2;
+	border-style: inset;
+	border-width: 1px;
+	margin-left: 0;
+}
+
+.oglasPhone {
+	display: inline;
+	float: left;
+	margin-top: 90px;
+}
+
+.oglasRight {
+	float: right;
+}
+
+.oglasRight p {
+	display: inline;
+}
+
+.oglasCenter {
+	float: left;
+	margin-top: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.oglasCenter p {
+	color: #919191;
+}
+
+.oglasBottom {
+	float: center;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.oglasBottom button {
+	width: 60px;
+	margin-bottom: 20px;
+}
+
+.fbShareBtn {
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 100%;
+	background-image: url(../img/fb.png);
+}
+
+.mapOglas {
+	height: 45vw;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+/* Ocena.html */
+
+.ionic_ratings .icon {
+	font-size: 40px;
+}
+
+.ocena {
+	text-align: center;
+	padding: 30px;
+}
+
+.ocena p {
+	text-align: center;
+	font-family: LatoRegular;
+	font-size: 18px;
+}
+/* itemList */
+
+.itemList h1 {
+	color: #888888;
+	font-family: LatoBold;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 15px;
+	float: left;
+	margin-left: -20px;
+}
+
+.itemList p {
+	color: #888888;
+	font-family: LatoBold;
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+.itemList button {
+	float: right;
+}
+/* podkategorija */
+
+.podkategorija {
+	margin-bottom: 40px;
+}
+
+.podkategorija ion-item {
+	height: 160px;
+}
+
+.podkategorija ion-item a {
+	height: 160px;
+}
+
+.podkategorija .oglasLeft {
+	float: left;
+}
+
+.podkategorija img {
+	width: 140px;
+	height: 160px;
+}
+
+.podkategorija .likes {
+	margin-left: 20px;
+}
+
+.podkategorija .oglasRight {
+	float: left;
+	margin-top: 34px;
+	margin-bottom: 34px;
+	margin-left: 20px;
+}
+
+.podkategorija p {
+	color: #919191;
+	font-family: LatoRegular;
+	font-size: 15px;
+	margin: 0 auto;
+	color: #888888;
+	line-height: 200%;
+}
+
+.podkategorija hr {
+	border-color: #e2e2e2;
+	border-style: inset;
+	border-width: 1px;
+}
+
+.item-thumbnail-left > img:first-child,
+.item-thumbnail-left .item-image,
+.item-thumbnail-left .item-content > img:first-child,
+.item-thumbnail-left .item-content .item-image {
+	max-width: 50px;
+	max-height: 50px;
+}
+/* ABOUT */
+
+.scroll {
+	height: 100%;
+}
+
+#map {
+	height: 45vw;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.about-us-info {
+	text-align: center;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.about-us h3 {
+	font-family: LatoRegular;
+	color: #808080;
+	text-align: center;
+	font-size: 22px;
+}
+
+.about-us p {
+	text-align: left;
+	font-family: LatoRegular;
+	font-size: 12px;
+	color: #a7a7a7;
+}
+
+.about-us-info a {
+	text-decoration: none;
+}
+
+.about-us img {
+	width: 30vw;
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 30px;
+	float: left;
+}
+/* Moji Oglasi */
+
+.mojiOglasi {
+	margin-bottom: 40px;
+}
+
+.mojiOglasi ion-item {
+	height: 160px;
+}
+
+.mojiOglasi ion-item a {
+	height: 160px;
+}
+
+.mojiOglasiInfo {
+	margin-left: -90px;
+	float: left;
+}
+
+.mojiOglasi .mojiOglasiLeft {
+	float: left;
+	display: inline;
+	margin-right: 30px;
+}
+
+.mojiOglasi img {
+	width: 100px;
+	height: 100px;
+	border-radius: 5%;
+}
+
+.mojiOglasi .likes {
+	margin-left: 20px;
+}
+
+.mojiOglasi .mojiOglasiRight {
+	float: right;
+}
+
+.mojiOglasi p {
+	color: #919191;
+	font-family: LatoRegular;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+.mojiOglasi hr {
+	border-color: #e2e2e2;
+	border-style: inset;
+	border-width: 1px;
+}
+
+.mojiOglasiButton {
+	float: right;
+}
+
+.mojiOglasiButton button {
+	margin-top: 10%;
+	width: 75px;
+}
+
+.mojiOglasiPadding a {
+	padding-right: 0;
+}
+/* Lajkovani Oglasi */
+
+.lajkovaniOglasi {
+	margin-bottom: 40px;
+}
+
+.lajkovaniOglasi ion-item {
+	height: 160px;
+}
+
+.lajkovaniOglasi ion-item a {
+	height: 160px;
+}
+
+.lajkovaniOglasiInfo {
+	float: left;
+}
+
+.lajkovaniOglasi .lajkovaniOglasiLeft {
+	float: left;
+	display: inline;
+	margin-right: 30px;
+}
+
+.lajkovaniOglasi img {
+	width: 100px;
+	height: 100px;
+	border-radius: 5%;
+}
+
+.lajkovaniOglasi .likes {
+	margin-left: 20px;
+}
+
+.lajkovaniOglasi .lajkovaniOglasiRight {
+	float: right;
+}
+
+.lajkovaniOglasi p {
+	color: #919191;
+	font-family: LatoRegular;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+.lajkovaniOglasi hr {
+	border-color: #e2e2e2;
+	border-style: inset;
+	border-width: 1px;
+}
+
+.lajkovaniOglasiButton {
+	float: right;
+}
+
+.lajkovaniOglasiButton button {
+	width: auto;
+}
+/* Pretraga */
+
+.pretraga {
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 65vw;
+	text-align: center;
+}
+
+.pretragaTop {
+	width: 100%;
+	font-size: 16px;
+}
+
+.pretragaTop p {
+	margin-top: 5px;
+	color: #5c5c5c;
+	display: inline;
+	margin-right: 10px;
+}
+
+.pretragaTop select {
+	height: 30px;
+}
+
+.pretragaCenter {
+	margin-top: 40px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.pretragaCenter p {
+	margin-top: 5px;
+	color: #5c5c5c;
+	display: inline;
+	margin-right: 10px;
+}
+
+.pretragaCenter select {
+	height: 30px;
+}
+
+.pretragaBottom {
+	margin-top: 40px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.pretragaBottom p {
+	margin-top: 10px;
+	color: #5c5c5c;
+	display: inline;
+	margin-right: 10px;
+	margin-left: -40px;
+}
+
+.pretragaBottom input {
+	display: inline;
+	width: 120px;
+}
+
+.pretragaButton {
+	text-align: center;
+}
+
+.pretragaButton button {
+	margin-top: 50px;
+}
+/* Postavi oglas */
+
+.postaviOglas {
+	margin: 0 auto;
+}
+
+.postaviOglasTop {
+	margin-top: 40px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.postaviOglasTop p {
+	margin-top: 5px;
+	color: #5c5c5c;
+	display: inline;
+	float: left;
+	margin-right: 40px;
+	padding-bottom: 40px;
+}
+
+.postaviOglasTop select {
+	height: 30px;
+}
+
+.postaviOglasCenter {
+	margin-top: 10px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.postaviOglasCenter p {
+	margin-top: 10px;
+	color: #5c5c5c;
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+
+.postaviOglasCenter input {
+	display: inline;
+	width: 40%;
+}
+
+.postaviOglasTextarea {
+	margin-top: 10px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.postaviOglasTextarea p {
+	margin-top: 35px;
+	color: #5c5c5c;
+	display: inline;
+	float: left;
+}
+
+.postaviOglasTextarea textarea {
+	height: 100px;
+	width: 40%;
+	display: inline;
+}
+
+.postaviOglasSlika {
+	margin-top: 10px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.postaviOglasSlika p {
+	margin-top: 35px;
+	color: #5c5c5c;
+	display: inline;
+	float: left;
+}
+
+.postaviOglasSlika img {
+	margin-top: 10px;
+	width: 70px;
+	height: 70px;
+}
+
+.postaviOglasButton {
+	text-align: center;
+}
+
+.postaviOglasButton button {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+/* MAPS */
+
+.scroll {
+	height: 100%;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+}
+/* FONTS */
+
+@font-face {
+	font-family: LatoBold;
+	src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+	font-family: LatoRegular;
+	src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+	font-family: LatoLight;
+	src: url(../fonts/Lato-Light.ttf);
+}

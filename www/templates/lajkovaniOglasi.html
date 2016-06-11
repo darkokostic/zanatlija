@@ -1,0 +1,35 @@
+<ion-nav-title>
+   <span ng-hide="search">Title</span>
+   <span ng-if="search">
+      <label class="item item-input">
+         <input type="text" placeholder="Search..." ng-model="searchText">
+      </label>
+   </span>
+</ion-nav-title>
+<ion-view>
+  <ion-nav-buttons side="right">
+      <button class="button button-clear icon ion-ios-search-strong" ng-class="onFavorites ? &apos;button-positive&apos; : &apos;button-dark&apos;" ng-click="showFilterBar()"></button>
+  </ion-nav-buttons>
+    <ion-content ng-init="getSpeakers()" class="scroll-content ionic-scroll">
+        <ion-list class="lajkovaniOglasi">
+            <ion-item style="height: 160px;" ng-repeat="kategorija in kategorije" class="item-thumbnail item-text-wrap" href="#/oglas-single-view/">
+              <div class="lajkovaniOglasiInfo">
+                <div class="lajkovaniOglasiLeft">
+                  <img src="img/kategorija.png">
+                  <p class="likes">123 likes</p>
+                </div>
+                <div class="lajkovaniOglasiRight">
+                  <p>Ime</p>
+                  <hr>
+                  <p>Adresa</p>
+                  <hr>
+                  <p>Radno vreme</p>
+                </div>
+              </div>
+                <div class="lajkovaniOglasiButton">
+									<button class="button button-stable icon ion-thumbsup"></button>
+								</div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
